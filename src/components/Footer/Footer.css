@@ -1,0 +1,38 @@
+#top{
+    border-top: black solid 4px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: aliceblue;
+}
+#one{
+display: inline-flex;
+    width: 60%;
+    /* border: black solid 1px; */
+    padding: 1%;
+    flex-direction: column;
+}
+#two{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    width: 30%;
+    /* border: black solid 1px; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logos{
+    border: 1.3px solid black;
+    border-radius: 30px;
+    padding: 0.5%;
+}
+#one > h4{
+    margin-bottom: 0;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+#one > p{
+    margin-left: 1%;
+}
+#two > h4{
+    text-decoration: underline;
+}

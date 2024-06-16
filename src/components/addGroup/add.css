@@ -1,0 +1,40 @@
+.justAfterNav{
+    margin: 4%;
+    border: black solid 1px;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px blueviolet;
+}
+#splitName{
+    margin: 1%;
+    width: 50%;
+    padding: 0.6%;
+    border-radius: 10px;
+}
+#address1,#address2,#amount{
+    margin: 1%;
+    width: 80%;
+    padding: 0.6%;
+    border-radius: 10px;
+}
+#amount{
+    width: 100px;
+}
+#addMembersBtn{
+    border-radius: 50px;
+    padding: 0.3%;
+    margin-top: 0.1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+#create{
+    margin: 1%;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    padding: 1%;
+    transition: 300ms;
+}
+#create:hover{
+    cursor: pointer;
+    background-color: lightsalmon;
+}

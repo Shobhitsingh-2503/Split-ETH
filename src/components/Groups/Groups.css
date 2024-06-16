@@ -1,0 +1,39 @@
+#container {
+    display:flex;
+    flex-direction: row;
+    margin: 4%;
+    margin-top: 0%;
+}
+.card{
+    border: black solid 1px;
+    border-radius: 18px;
+    margin: 1%;
+    margin-right: 4%;
+    width: fit-content;
+    padding: 2%;
+    box-shadow: 8px 5px 10px grey;
+}
+.who{
+    font-size: small;
+    margin-top: 0;
+    box-shadow: 2px 2px 3px grey ;
+    background-color:lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    width: fit-content;
+
+}
+.head{
+    margin: 0;
+}
+.payBtn{
+    margin: 0%;
+    padding: 7%;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.payBtn:hover{
+    cursor: pointer;
+}

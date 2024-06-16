@@ -1,0 +1,24 @@
+.connectBtn{
+    padding: 1%;
+    border: black solid 2px;
+    width: fit-content;
+    font:large;
+    border-radius: 20px;
+    background-color: violet;
+}
+.connectBtn:hover{
+    cursor: pointer;
+}
+.Nav{
+    /* border: black solid 1px; */
+    padding: 1%;
+    border-radius: 25px;
+    background-color:blueviolet;
+    text-align: right;
+}
+.logo{
+    float:left;
+}
+#logoImg{
+    border-radius: 20px;
+}
