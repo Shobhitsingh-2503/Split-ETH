@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './add.css'
 import { addDoc, collection } from 'firebase/firestore'
-import { db } from '../../firebase'
+import { db } from '../../fiirebase'
 const { ethers } = require('ethers')
 
 const provider = new ethers.providers.Web3Provider(window.ethereum)

@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "./firebase.js";
+import { db } from "./fiirebase.js";
 import Bar from "./components/Navbar/Navbar.jsx";
 import AddGroup from "./components/addGroup/AddGroup.jsx";
 import Groups from "./components/Groups/Groups.jsx";
 import Foot from "./components/Footer/Footer.jsx";
 import Oops from "./components/Oops/Oops.jsx";
-import oops from "./components/oops.png";
+// import oops from "./components/oops.png";
 import "./App.css";
 const { ethers } = require("ethers");
 
